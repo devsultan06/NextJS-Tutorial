@@ -11,11 +11,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header>
-          <h1>Header</h1>
-        </header>
+        <h2>Features Products</h2>
         {children}
-        <footer>Footer</footer>
       </body>
     </html>
   );
