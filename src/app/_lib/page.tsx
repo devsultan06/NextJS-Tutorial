@@ -1,0 +1,4 @@
+
+export default function PrivateRoute(){
+return <h1>This is a PrivateRoute</h1>
+}
