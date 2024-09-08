@@ -1,15 +1,12 @@
-
-export default function RootLayout({
+export default function ProductDetails({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
-        <h2>Features Products</h2>
-        {children}
-      </body>
-    </html>
+    <>
+      <h2>Features Products</h2>
+      {children}
+    </>
   );
 }

@@ -1,4 +1,4 @@
-export default function ProductDetails({
+export default function ReviewsDetails({
   params,
 }: {
   params: { productid: string; reviewsId: string };
